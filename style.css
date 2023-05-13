@@ -27,15 +27,25 @@ header{
     font-family: sans-serif;
     padding-right: 20px;
     padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 
 }
 
 ul{
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    list-style-type: none; */
+    display: flex;
     list-style-type: none;
+    align-items: center;
+    margin-right: 180px;
+    width: 300px;
+    justify-content: space-between;
 }
 
 .btn{
@@ -135,7 +145,7 @@ h3{
 .editprofile{
     width: 350px;
     margin-top: 20px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left: 70px;
 }
 
@@ -221,8 +231,8 @@ h3{
 }
 
 .conreq{
-    width: fit-content;
-    height: fit-content;
+    /* width: fit-content;
+    height: fit-content; */
     margin-bottom: 50p;
 }
 
@@ -312,7 +322,7 @@ h3{
     display: flex;
     align-items: center;
     padding-left: 20px;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     font-size: 18pt;
 }
 
@@ -322,7 +332,7 @@ h3{
     display: flex;
     align-items: center;
     padding-left: 20px;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     font-size: 18pt;
 }
 
@@ -332,7 +342,7 @@ h3{
     display: flex;
     align-items: center;
     padding-left: 20px;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     font-size: 18pt;
 }
 
@@ -342,7 +352,7 @@ h3{
     display: flex;
     align-items: center;
     padding-left: 20px;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     font-size: 18pt;
 }
 
